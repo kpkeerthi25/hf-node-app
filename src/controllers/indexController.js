@@ -5,7 +5,7 @@ const networkConnection = require('../fabricStartUp');
 exports.queryEvent = (req, res) => {
     
     console.log("api called")
-    const EventID = req.body.eventID
+    const EventID = req.params.id
     var resArray = [];
     networkConnection
         .execTransaction("EventQuery", true, params = [EventID]).then((result) => {

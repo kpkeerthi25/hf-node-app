@@ -4,7 +4,8 @@ const router = express.Router();
 
 const indexController = require('../controllers/indexController');
 
-router.post('/container', indexController.queryContainer);
+router.get('/container/:id', indexController.queryEvent);
+router.post('/createEvent',indexController.createEvent);
 
 
 module.exports = router;
