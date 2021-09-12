@@ -1,0 +1,11 @@
+{
+    "channelName": "navis",
+    "chaincodeName": "basic",
+    "mspOrg1": "ptpMSP",
+    "walletPath": "C:/scv-platform-setup-files/application/src/wallet",
+    "org1UserId": "appUser2",
+    "caHostname": "ca.PTP.MYTPP.APMT",
+    "affiliation":"ptp.department1",
+    "orgName": "PTP.MYTPP.APMT",
+    "connectionJSON": "connection-ptp.yaml"
+}
